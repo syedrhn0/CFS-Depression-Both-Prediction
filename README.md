@@ -8,6 +8,13 @@ ME/CFS and Depression share several overlapping symptoms such as fatigue, poor s
 
 The application allows users to enter symptom and lifestyle information and receive a prediction using one of three trained classification models.
 
+## Application Preview
+
+<p align="center">
+  <img src="screenshots/home.png" width="45%" />
+  <img src="screenshots/prediction.png" width="45%" />
+</p>
+
 ## Features
 
 - Predicts **CFS**, **Depression**, or **Both**
@@ -75,6 +82,11 @@ CFS-vs-Depression-Prediction/
 │   ├── dt.pkl
 │   ├── lr.pkl
 │   └── rf.pkl
+│
+├── screenshots/
+│   ├── home.png
+│   ├── model-selection.png
+│   └── prediction.png
 │
 ├── app.py
 ├── requirements.txt
