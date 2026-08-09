@@ -5,9 +5,9 @@ import streamlit as st
 
 
 
-lr = pickle.load(open('lr.pkl','rb'))   # rb = read binary
-dt = pickle.load(open('dt.pkl','rb'))
-rf = pickle.load(open('rf.pkl','rb'))
+lr = pickle.load(open('models/lr.pkl','rb'))   # rb = read binary
+dt = pickle.load(open('models/dt.pkl','rb'))
+rf = pickle.load(open('models/rf.pkl','rb'))
 
 model = st.sidebar.selectbox('Select the Model',['LogReg','DecisionTree','RandomForest'])
 
